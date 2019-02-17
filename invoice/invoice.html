@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="invoice.css">
+    <title>Project: Invoice</title>
+</head>
+
+<body>
+    
+    <div id='wrapper'>
+        
+        <h2 id='headerr'>INVOICE</h2>
+
+        <div id='bill_details'>
+            <form action="/action_page.php">
+                <span style=" font-weight: bold; color: black;">Billed to:</span> <br><br>
+                Name:<br>
+                <input type="text" name="name" value="">
+                <br>
+                Address:<br>
+                <input type="text" name="address" value="">
+                <br><br>
+                </form> 
+        </div>
+
+        <table id='tab' style='width: 100%;'>
+            <tbody id='tbody'>
+                <tr>
+                    <th>Item No.</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </tbody>
+        </table>
+
+        <center>
+        <button id='add' onclick='additem()'>Add New Item</button>
+        <button id='calculate' onclick='calculate()'>Calculate</button>
+        <button id='calctotal' onclick='caltotal()'>Calculate Total</button>
+        <button id='print' onclick='printpdf()'>Get PDF</button>
+        </center>
+
+        <h2 id='ans' style='float: right'></h2>
+    
+    </div>
+
+</body>
+
+<script src="invoice.js"></script>
+</html>

@@ -1,0 +1,11 @@
+    
+    #wrapper{ width : 900px; margin: auto;}
+    #headerr { width: auto; background-color: black; color: white; height: 40px; text-align: center; padding-top: 15px;}
+    #add { background-color: blue; font-size: 22px; color: white;}
+    #print { background-color: blue; font-size: 22px; color: white; }
+    #calculate { background-color:blue; font-size: 22px; color: white; }
+    #calctotal { background-color: blue; font-size: 22px; color: white; }
+    th { background-color:silver; border: 2px solid; text-align: center;}
+    td { border: 1px solid; padding-left: 5px;}
+    tr { height: 40px;}
+    center { margin-top: 20px;}
