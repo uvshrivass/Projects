@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hollywood</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+        <div class="container">
+
+                <div class="jumbotron text-xs-center" style="background-color: black;color:white">
+                    <center>
+                    <h2 class="display-3">Movie Boulevard</h2>
+                    <p class="lead">Please fill movie details</p>
+                  </center>
+                    
+                </div>
+              <form id="contact-form" method="POST" action="/sendmovie" >
+          
+                <div class="messages"></div>
+            
+                <div class="controls">
+            
+                        <div class="controls">
+            
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_moviename">Movie Name *</label>
+                                            <input id="form_moviename" type="text" name="moviename" class="form-control" placeholder="Please enter movie name *" required="required" data-error="Movie name is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_year">Year released *</label>
+                                            <input id="form_year" type="text" name="year" class="form-control" placeholder="Please enter release date *" required="required" data-error="Release date is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                    <div class="col-md-12">
+                                        <input type="submit" class="btn btn-success btn-send" value="Send Movie Details" style="width:100%; background-color:grey;height:50px;"><br><br>
+                                    </div>
+                                </form>  
+                        
+                                </div>
+                        
+                                <form id="contact-form" method="GET" action="/getmoviee" >
+                                    <div class="col-md-12">
+                                            <input type="submit" class="btn btn-success btn-send" value="Get Movie Details" style="width:100%; height:50px;"><br><br>
+                                    </div>
+                                </form>
+                    
+          
+                    </div>
+                </div>
+            
+            
+            <br>
+            <br>
+            <br>
+            </div>
+    
+</body>
+</html>

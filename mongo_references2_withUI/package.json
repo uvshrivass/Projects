@@ -1,0 +1,16 @@
+{
+  "name": "mongo_references2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dbconnect.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.14"
+  }
+}
