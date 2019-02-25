@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Business Model Canvas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" >
+
+</head>
+<body >
+       
+<div class="grandParentContaniner">
+  <div class="parentContainer">
+
+
+    <div class="container"> 
+      <div class="box"> 
+        <div class="box-row"> 
+
+          <div class="box-cell box1">
+          <div>
+          <div class="tablee"><div class="roww"><div class="cell"><div class="step"></div><p class="stepp" style="display: inline-block; font-size: 16px; vertical-align: middle">Welcome Page</p><br> </div></div></div>
+          <div class="tablee"><div class="roww"><div class="cell"><div class="step"></div><p class="stepp" style="display: inline-block; font-size: 16px; vertical-align: middle">Applicant Details</p><br> </div></div></div>
+          <div class="tablee"><div class="roww"><div class="cell"><div class="step"></div><p class="stepp" style="display: inline-block; font-size: 16px; vertical-align: middle">Customer Segment</p><br></div></div></div>
+          <div class="tablee"><div class="roww"><div class="cell"><div class="step"></div><p class="stepp" style="display: inline-block; font-size: 16px; vertical-align: middle">Value Proposition</p><br></div></div></div>
+          <div class="tablee"><div class="roww"><div class="cell"><div class="step"></div><p class="stepp" style="display: inline-block; font-size: 16px; vertical-align: middle">Channels</p><br></div></div></div>
+          <div class="tablee"><div class="roww"><div class="cell"><div class="step"></div><p class="stepp" style="display: inline-block; font-size: 16px; vertical-align: middle">Customer Relationships</p><br></div></div></div>
+          <div class="tablee"><div class="roww"><div class="cell"><div class="step"></div><p class="stepp" style="display: inline-block; font-size: 16px; vertical-align: middle">Revenue Streams</p><br></div></div></div>
+          <div class="tablee"><div class="roww"><div class="cell"><div class="step"></div><p class="stepp" style="display: inline-block; font-size: 16px; vertical-align: middle">Key Resources</p><br></div></div></div>
+          <div class="tablee"><div class="roww"><div class="cell"><div class="step"></div><p class="stepp" style="display: inline-block; font-size: 16px; vertical-align: middle">Key Activities</p><br></div></div></div>
+          <div class="tablee"><div class="roww"><div class="cell"><div class="step"></div><p class="stepp" style="display: inline-block; font-size: 16px; vertical-align: middle">Key Partners</p><br></div></div></div>
+          <div class="tablee"><div class="roww"><div class="cell"><div class="step"></div><p class="stepp" style="display: inline-block; font-size: 16px; vertical-align: middle">Cost Structure</p><br></div></div></div>
+          <div class="tablee"><div class="roww"><div class="cell"><div class="step"></div><p class="stepp" style="display: inline-block; font-size: 16px; vertical-align: middle">Submit Application</p><br></div></div></div>
+        </div> 
+      </div> 
+
+    <div class="box-cell box2"> 
+      <div>
+        <form id="regForm" action="/user" method="POST" style="padding-left:10px;padding-right:10px;" >
+
+          <div style="overflow:auto;">
+            <div >
+              <button type="button" id="prevBtn" onclick="nextPrev(-1)"" style="float:left; width: 150px; height: 45px; font-family: sans-serif;">PREVIOUS</button>
+              <button type="button" id="nextBtn" onclick="nextPrev(1)" style="background-color:blueviolet; float:right; width: 150px; height: 45px; font-family: sans-serif;">NEXT</button>
+            </div>
+          </div>
+
+            <div class="tab">
+
+              <center>
+                <br><br><br><br>
+                <h1 style="font-size: 90px;"><img src="http://uvshrivas.com/hand.png" style="width:50px;"> Welcome <img src="http://uvshrivas.com/hand2.png" style="width:50px;"> </h1>
+                <p style="font-size: 40px;">Good to see you here !</p><br>
+                <p style="font-size: 20px;">Click on <span style="font-weight:bold;">NEXT</span> to launch your funding application..</p>
+              </center>
+
+            </div>
+
+            <div class="tab">
+              <br>
+                <h2 >Let's begin!</h2>
+                <p>Please enter your infomation and proceed to next step</p>
+              <br>
+                Founder's Name:
+                <p><input type="text" placeholder="Please provide your full name" oninput="this.className = ''" name="fname"></p>
+                Email:
+                <p><input type="email" placeholder="Please provide your email" oninput="this.className = ''" name="email"></p>
+                Startup Name:
+                <p><input type="text" placeholder="Please provide the name of your startup" oninput="this.className = ''" name="sname"></p>
+                Industry Type:<br>
+                <select name="select">
+                  <option value="">Please select your industry</option>
+                  <option value="technology">Technology</option>
+                  <option value="healthcare">Healthcare</option>
+                  <option value="education">Education</option>
+                  <option value="hospitality">Hospitality</option>
+                  <option value="energy">Energy</option>
+                  <option value="media">Media</option>
+                  <option value="cretail">Consumer Retail</option>
+                  <option value="construction">Construction</option>
+                  <option value="finance">Finance</option>
+                  <option value="transportation">Transportation</option>
+                </select>
+            </div>
+
+
+
+            <div class="tab">
+              <h1>Customer Segment</h1>
+              <p>Things to consider:</p>
+              <p style="font-weight: bold;"> a. Which classes are you creating values for?<br>
+                b. Who is your most important customer? </p>
+              <div id="customersegment"></div>
+
+              <button type="button" class="btn btn-primary" style="width: 100%; background-color: #2d5089; font-family: 'Ubuntu', sans-serif;
+              ; " onclick="createInput()">Click to add an input field</button><br>
+            </div>
+
+            <div class="tab">
+              <h1>Value Proposition</h1>
+              <p>Things to consider:</p>
+              <p style="font-weight: bold;"> a. What core values do you deliver to the customer? <br>
+                    b. Which customer needs are you satisfying?</p>
+              <div id="valueproposition"></div>
+
+              <button type="button" class="btn btn-primary" style="width: 100%; background-color:  #2d5089; font-family: 'Ubuntu', sans-serif;" onclick="createInput()">Click to add an input field</button><br>
+            </div>
+
+
+            <div class="tab">
+              <h1>Channels</h1>
+              <p>Things to consider:</p>
+              <p style="font-weight: bold;"> a. Through which channels that your customers want to be reached?<br>
+                    b. Which channels work best? How much do they cost?</p>
+              <div id="channels"></div>
+
+              <button type="button" class="btn btn-primary" style="width: 100%; background-color:  #2d5089; font-family: 'Ubuntu', sans-serif"; onclick="createInput()">Click to add an input field</button><br>
+            </div>
+
+            <div class="tab">
+              <h1>Customer Relationships</h1>
+              <p>Things to consider:</p>
+              <p style="font-weight: bold;"> a. What relationship that the target customer expects you to establish?<br>
+                    b. How can you integrate that into your business in terms of cost and format?</p>
+              <div id="customerrelationships"></div>
+
+              <button type="button" class="btn btn-primary" style="width: 100%; background-color:  #2d5089; font-family: 'Ubuntu', sans-serif; onclick="createInput()">Click to add an input field</button><br>
+            </div>
+
+            <div class="tab">
+              <h1>Revenue Streams</h1>
+              <p>Things to consider:</p>
+              <p style="font-weight: bold;"> a. For what value are your customers willing to pay?<br>
+                    b. What and how do they recently pay? How would they prefer to pay?</p>
+              <div id="revenuestreams"></div>
+
+              <button type="button" class="btn btn-primary" style="width: 100%; background-color:  #2d5089; font-family: 'Ubuntu', sans-serif; onclick="createInput()">Click to add an input field</button><br>
+            </div>
+
+            <div class="tab">
+              <h1>Key Resources</h1>
+              <p>Things to consider:</p>
+              <p style="font-weight: bold;"> a. What key resources does your value proposition require? <br>
+                    b. What resources are important the most in distribution channels, customer relationships, revenue stream, etc?</p>
+              <div id="keyresources"></div>
+
+              <button type="button" class="btn btn-primary" style="width: 100%; background-color:  #2d5089; font-family: 'Ubuntu', sans-serif; onclick="createInput()">Click to add an input field</button><br>
+            </div>
+
+            <div class="tab">
+              <h1>Key Activities</h1>
+              <p>Things to consider:</p>
+              <p style="font-weight: bold;"> a. What activities does your value proposition require?<br>
+                    b. What activities are important the most in distribution channels, customer relationships, revenue stream, etc?</p>
+              <div id="keyactivities"></div>
+
+              <button type="button" class="btn btn-primary" style="width: 100%; background-color:  #2d5089; font-family: 'Ubuntu', sans-serif; onclick="createInput()">Click to add an input field</button><br>
+            </div>
+
+            <div class="tab">
+              <h1>Key Partners</h1>
+              <p>Things to consider:</p>
+              <p style="font-weight: bold;"> a. Who are your key partners/suppliers? <br>
+                    b. What are the motivations for the partnerships?</p>
+              <div id="keypartners"></div>
+
+              <button type="button" class="btn btn-primary" style="width: 100%; background-color:  #2d5089; font-family: 'Ubuntu', sans-serif; onclick="createInput()">Click to add an input field</button><br>
+            </div>
+
+            <div class="tab">
+              <h1>Cost Structure</h1>
+              <p>Things to consider:</p>
+              <p style="font-weight: bold;">a. What are the most cost in your business?<br>
+                    b. Which key resources/ activities are most expensive?</p>
+              <div id="coststructure"></div>
+
+              <button type="button" class="btn btn-primary" style="width: 100%; background-color:  #2d5089; font-family: 'Ubuntu', sans-serif; onclick="createInput()">Click to add an input field</button><br>
+            </div><br><br><br><br>
+
+            </form>
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+</div> <br>
+
+<footer style="height: 75px; background-color: white; border: 10px solid rgba(0,0,0,0.3); background-clip: padding-box;">
+    <center>
+      <p style="margin:0px;">Product of <span style="font-weight: bold; font-size: 20px;">The Hacking School</span></p>
+      <p>Developed by : <a href="#">Ujjwal Shrivas</a></span></p>
+    </center>
+
+</footer>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
