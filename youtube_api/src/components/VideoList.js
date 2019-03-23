@@ -4,6 +4,9 @@ import VideoListItem from './VideoListItem.js';
 
 
 class VideoList extends Component{
+	constructor(props){
+		super(props)
+	}
 	
 	const videoItems = this.props.videos.map((video, index) => {
 		
